@@ -74,6 +74,11 @@ variable "known_internal_ip" {
   default = ""
 }
 
+variable "image_id" {
+  type    = string
+  default = null
+}
+
 variable "image_family" {
   type    = string
   default = "ubuntu-2004-lts"
